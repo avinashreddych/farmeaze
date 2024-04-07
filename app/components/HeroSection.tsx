@@ -130,6 +130,7 @@ export default function HeoSection() {
 
       <Image
         src={BackgroundImage}
+        priority
         alt="farming land"
         placeholder="blur"
         fill
