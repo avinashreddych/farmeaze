@@ -111,7 +111,7 @@ export default function HeoSection() {
               Delivering agri-produce at scale.
             </h1>
 
-            <p className="text-base leading-8 text-stone-700">
+            <p className="text-base leading-8 text-stone-700 lg:text-lg">
               We delivers on-demand & offers expert analysis, Your one-stop
               agri-business solution.
             </p>
@@ -126,9 +126,12 @@ export default function HeoSection() {
         </div>
       </div>
 
+      <div className="absolute top-0 h-full w-full bg-gradient-to-b from-black/0 to-yellow-500/20 rounded-b-3xl lg:rounded-b-[5rem] z-10" />
+
       <Image
         src={BackgroundImage}
         alt="farming land"
+        placeholder="blur"
         fill
         className="object-cover object-right rounded-b-3xl lg:rounded-b-[5rem]"
       />

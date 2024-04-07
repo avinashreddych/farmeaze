@@ -80,8 +80,8 @@ export default function FooterSection() {
             <p className="text-gray-900 text-2xl font-semibold">farmeaze</p>
 
             <p className="text-sm leading-6 text-gray-600">
-              Making the world a better place through constructing elegant
-              hierarchies.
+              We delivers on-demand & offers expert analysis, Your one-stop
+              agri-business solution.
             </p>
 
             <div className="flex space-x-6">
